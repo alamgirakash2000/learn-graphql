@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import AddAuthor from "./components/AddAuthor";
+import AddBook from "./components/AddBook";
+import BookDetails from "./components/BookDetails";
+
+import BookList from "./components/Booklist";
 
 function App() {
+  const [currentBook, setCurrentBook] = useState("");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <div className="row">
+        <div className="app__left col-md-7">
+          <h1 className="app__title">Akash's Reading List</h1>
+          <BookList setCurrentBook={setCurrentBook} />
+          <AddBook />
+        </div>
+        <div className=" app__right col-md-5">
+          <BookDetails currentBook={currentBook} />
+          <AddAuthor />
+        </div>
+      </div>
     </div>
   );
 }
