@@ -1,5 +1,4 @@
 /client/node_modules
-/client/build
 /client/.vercel
 
 /server/node_modules
