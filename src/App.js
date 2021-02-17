@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./App.css";
 import AddAuthor from "./components/AddAuthor";
 import AddBook from "./components/AddBook";
 import BookDetails from "./components/BookDetails";

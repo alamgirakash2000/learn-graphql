@@ -25,7 +25,7 @@ const UpdateModal = ({ book }) => {
   };
 
   return (
-    <div className="modal" tabIndex="-1" id="updateModal">
+    <div className="modal text-dark" tabIndex="-1" id="updateModal">
       <div className="modal-dialog">
         <div className="modal-content">
           <div className="modal-header">
