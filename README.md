@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1> Learn GraphQL - A simple CURD app using GraphQL Server and Client </h1>
 
 <h3> Links </h3>
@@ -8,3 +9,6 @@
   <li> Server side code - <a target="_blank"  href="https://github.com/alamgirakash2000/learn-graphql/tree/server-code">https://github.com/alamgirakash2000/learn-graphql/tree/server-code</a>
 
 </ul>
+=======
+
+>>>>>>> f9f5b83b76c80599ab253619ccac712ba645e215
